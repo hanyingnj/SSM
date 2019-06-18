@@ -2,5 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/《使用前必读！》.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/商品的数据库.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/顺便复习数据库手动sql.txt" charset="GBK" />
   </component>
 </project>

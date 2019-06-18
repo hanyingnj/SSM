@@ -5,7 +5,11 @@
     <!-- 加载spring容器，注意还需要加载mybatis给spring -->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:spring/spring-*.xml,classpath:mybatis/mybatis-*.xml</param-value>
+        <param-value>
+            classpath:spring/spring-*.xml,
+            classpath:mybatis/mybatis-*.xml,
+            classpath:spring/spring-dao.xml
+        </param-value>
     </context-param>
     <!-- spring加载前端控制器 -->
     <!-- 如果是用mvn命令生成的xml，需要修改servlet版本为3.1 -->
